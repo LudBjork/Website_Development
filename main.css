@@ -1,13 +1,13 @@
 body {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/77/395/701/pixel-art-andlt-aestheticandgt-town-city-waneella-hd-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/77/395/701/pixel-art-andlt-aestheticandgt-town-city-waneella-hd-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .mainer {
-    background-color: rgb(255, 255, 255, 0.4);
+	background-color: rgb(255, 255, 255, 0.4);
 }
 
 .belle {
-    text-align: left;
+	text-align: left;
 }

@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html>
-		<head>
-				<title>Projects</title>
-				<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-				<link rel="stylesheet" href="main.css">
-				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-		</head>
+	<head>
+		<title>Projects</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
 
-		<body>
-				<!--Navbar-->
-				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-						<div class=" container-fluid">
-								<a class="navbar-brand text-muted" href="index.html">Home</a>
-								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTarget" aria-expanded="false" aria-label="Toggle nav">
-										<span class="navbar-toggler-icon"></span>
-								</button>
-								<div class="collapse navbar-collapse" id="navbarTarget">
-										<div class="navbar-nav">
-												<a class="nav-link" href="aboutMe.html">About Me</a>
-												<a class="nav-link" href="projects.html">Projects</a>
-										</div>
-								</div>
-						</div>
-				</nav>		
-		</body>
+	<body class="text-center">
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class=" container-fluid">
+				<a class="navbar-brand text-muted" href="index.html">Home</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTarget" aria-expanded="false" aria-label="Toggle nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTarget">
+					<div class="navbar-nav">
+						<a class="nav-link" href="aboutMe.html">About Me</a>
+						<a class="nav-link active" href="projects.html">Projects</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<main>
+		<div class="container mainer">
+			<h4><b>Projects</b></h4>
+			<script src="firstScript.js"></script>
+			<button type="button" class="btn btn-dark" onclick="hide()">Press Me</button>
+			<p class="belle" id="buttonTarget">
+				Here's some text you can <i>hide</i> with the above button.  
+			</p>
+		</div>
+	</main>
+		<div class="mt-5 p-5 bg-dark text-white">
+		<h5>Contact info:</h5>
+		<p><i>E-mail: </i>ludvikb@hotmail.no</p>
+		<p><i>LinkedIn: </i>https://www.linkedin.com/in/ludvik-bjorklund/</p>
+		<p><i>GitHub: </i>https://github.com/LudBjork</p>
+	</div>
+</body>
+
 </html>
