@@ -3,3 +3,7 @@
 #tie {
     display: none;
 }
+
+#resetter:hover {
+    background-color: navy;
+}
